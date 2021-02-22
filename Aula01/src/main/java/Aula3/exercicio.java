@@ -12,14 +12,8 @@ import java.util.Scanner;
  * @author davidcuba
  */
 public class exercicio {
-    int codigo;
-    int cpf;
-    int alu_codigo;
-    int alu_cpf;
-    String alu_rg;
-    String alu_nome;
-    String alu_endereco;
-    int alu_numero;
+    int codigo, cpf, alu_codigo, alu_cpf, alu_numero;
+    String alu_rg, alu_nome, alu_endereco;
     String alu_complemento;
     String alu_bairro;
     String alu_cidade;
@@ -28,7 +22,7 @@ public class exercicio {
     String alu_celular;
     String alu_email;
     float alu_salario;
-    boolean alu_masculino
+    boolean alu_masculino;
     
     public void entradaAluno() {
         Scanner input = new Scanner(System.in);
