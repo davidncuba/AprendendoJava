@@ -13,14 +13,7 @@ import java.util.Scanner;
  */
 public class exercicio {
     int codigo, cpf, alu_codigo, alu_cpf, alu_numero;
-    String alu_rg, alu_nome, alu_endereco;
-    String alu_complemento;
-    String alu_bairro;
-    String alu_cidade;
-    String alu_estado;
-    String alu_telefone;
-    String alu_celular;
-    String alu_email;
+    String alu_rg, alu_nome, alu_endereco, alu_complemento, alu_bairro, alu_cidade, alu_estado, alu_telefone, alu_celular, alu_email;
     float alu_salario;
     boolean alu_masculino;
     
