@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class exercicio2 {
     int codigo, dependentes;
-    String nome, nome_do_pai, nome_da_mae, telefone;
+    String nome, nome_do_pai, mae, telefone;
     float salario_base, per_inss, per_irrf, salario_familia, vale_transporte, valor_assistencia_medica, descontos, salario_liquido;
     
     public void Calculos(){
@@ -33,9 +33,9 @@ public class exercicio2 {
          System.out.println("Nome do Pai.......: ");
          nome_do_pai = input.next();
          
-//         System.out.print("Nome da Mae.......: ");
-//         nome_da_mae = input.next();
-         
+         System.out.println("Nome da Mae.......: ");
+         mae = input.next();
+        
          System.out.println("Telefone.......: ");
          telefone = input.next();
          
