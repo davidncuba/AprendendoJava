@@ -67,12 +67,7 @@ public class Exercicio2 {
     public void Calculo(){
         
         media = (nota1 + nota2+ nota3 + nota4) / 4;
-//        Média = 0 (“Nota Zero – Péssimo”);
-//         Média = 1 (“Nota Um – Ruim”);
-//         Média = 2 (“Nota Dois – Regular”);
-//         Média = 3 (“Nota Três – Bom”);
-//         Média = 4 (“Nota Quatro – Ótimo”);
-//         Média = 5 (“Nota Cinco – Excelente”);
+
         switch ((int) media){
             case 0 : 
                 System.out.print("Nota Zero – Péssimo");

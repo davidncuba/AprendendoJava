@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Exercicio1 {
     int codigo;
     String nome, status;
-    float nota1, nota2, nota3, nota4, media;
+    float nota1, nota2, nota3, nota4, soma_nota;
     
     
     public void EntradaDados(){
@@ -41,8 +41,8 @@ public class Exercicio1 {
     
     public void Calculo(){
         
-        media = (nota1 + nota2+ nota3 + nota4);
-        if(media >= 28){
+        soma_nota = (nota1 + nota2+ nota3 + nota4);
+        if(soma_nota >= 28){
             status = "Aprovado";
             
         }else{
